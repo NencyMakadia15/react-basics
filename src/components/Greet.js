@@ -4,14 +4,16 @@ import React from 'react'
 //     return <h1>Hello Nency !</h1>
 // }
 
+//const Greet = ({name, heroName, children}) => {       //1st approch Destructuring props & state
 const Greet = props => {
-    console.log(props);
+    const {name, heroName, children} = props          //2nd approch Destructuring props & state
+    // console.log(props);
     return (
         <div>
             <h1>
-                Hello {props.name} a.k.a {props.heroName}
+                Hello {name} a.k.a {heroName}
             </h1>
-            {props.children}
+            {children}
         </div>
     );
 }
