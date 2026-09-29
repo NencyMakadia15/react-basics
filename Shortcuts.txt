@@ -1,0 +1,14 @@
+Shortcuts of vs code :
+
+
+Ctrl + L : select whole line
+
+Ctrl + Shift + (any arrows) : to select multiple things in order
+
+Shift + Alt + ↓ : Copy Line Down (Duplicate Below)
+
+Shift + Alt + F : format entire code
+
+Windows key + V : CTRL+C history
+
+Ctrl + Shift + Z or Ctrl + Y : Redo

@@ -1,0 +1,109 @@
+GitHub :
+
+cmd to check version : git --version
+
+clone(to make duplicate): clone a repo in ur local
+cmd : git clone link (to clone repo from GitHub to local) 
+
+
+to check status of files 
+cmd : git status
+
+
+add new or changed filess
+cmd : git add filename OR git add . (for more files)
+
+
+commit : git commit -m "message"
+
+
+push cmd - upload local repo content to remote repo
+cmd : git push origin main
+
+
+to create new folder(directory) 
+cmd : mkdir foldername
+
+
+to make git repo
+cmd : git init
+(after this cmd the git folder is created in the proj)
+
+
+to ckeck whether git folder is created or not 
+cmd : ls -hidden
+cmd : ls (it shows all the files but not the hidden files like git)
+
+
+to add new remote(github's repo) repo
+cmd : git remote add origin link(link of repo which is already created in github)
+
+
+to check what origin is set 
+cmd : git remote -v
+result : it gives repo name in which we will perform push operation
+
+
+to check branch 
+cmd : git branch
+
+
+to rename branch
+cmd : git branch -M main
+
+
+after getting into main branch, push it
+cmd : git push origin main 
+cmd : git push -u origin main (use instead) (-u is used to set upstream, to work on same proj for long) (use 'git push' from 2nd time so we don't need to write 'origin main' again and again)
+
+
+WorkFlow : Local Git
+Github repo -> clone -> changes -> add -> commit -> push
+
+
+Branch Command :
+to check branch : git branch
+to rename branch : git branch -M main
+to navigate : git checkout branchname
+to create new branch : git checkout -b newbranchname
+to delete branch : git branch -d branchname
+
+
+Merging Code :
+Way 1 -> to compare commits, branches, files and more(eg. feature branch with main branch)
+	 cmd : git diff main
+
+      -> to merge 2 branches
+	 cmd : git merge branchname
+
+Way 2 -> create a PR (pull request) in Github
+
+
+
+to pull changes from GitHub
+cmd : git pull origin main
+
+
+Resolving Merge Conflicts :
+cmd : git merge main
+then do changes and check status (cmd : git status)s
+cmd : git add .
+cmd : git commit -m "message to pass"
+ckeck 'git status' then 'git diff' then 'git diff main'
+cmd : git checkout main
+cmd : git merge branchname (branch in which the changes is made)
+cmd : git push
+
+
+to do changes after 'git add .' (changes added but not committed yet) :
+cmd : git reset filename (for 1-2 files)  OR  cmd : git reset (if changes are in multiple files)
+cmd : git reset HEAD~1 (if 1 commit is done)
+
+
+
+
+
+Notes :
+( CSS, GitHub, HTML, Java, JavaScript, SQL )
+
+https://drive.google.com/drive/folders/1wfNTKinBAV6CCxaI5lfSnnRFAYpy0uEl
