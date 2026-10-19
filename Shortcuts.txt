@@ -12,3 +12,7 @@ Shift + Alt + F : format entire code
 Windows key + V : CTRL+C history
 
 Ctrl + Shift + Z or Ctrl + Y : Redo
+
+Ctrl + Shift + S : to take ss of specific area
+
+Ctrl + Y : Redo
